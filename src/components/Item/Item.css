@@ -1,0 +1,25 @@
+.Item{
+    border: 1px solid white;
+    max-width: 100%;
+    min-height: 30px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: rgba(158, 65, 65, 0.582);
+    display: flex;
+    justify-content: space-between;
+    word-wrap: normal;
+}
+
+.isChecked{
+    background-color: rgba(80, 161, 100, 0.582);
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
